@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "trivial-rcp-red-cube",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:faisalmemon/trivial-rcp-red-cube.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "092b2d4310a625afd26e3f1c8f994af05808d7fa"
+      }
+    }
+  ],
+  "version" : 2
+}

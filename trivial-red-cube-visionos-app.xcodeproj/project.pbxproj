@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		391541FC2A4B671F0011BBAD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 391541FB2A4B671F0011BBAD /* RealityKitContent */; };
 		391541FE2A4B671F0011BBAD /* trivial_red_cube_visionos_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391541FD2A4B671F0011BBAD /* trivial_red_cube_visionos_appApp.swift */; };
 		391542002A4B671F0011BBAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391541FF2A4B671F0011BBAD /* ContentView.swift */; };
 		391542022A4B67200011BBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391542012A4B67200011BBAD /* Assets.xcassets */; };
 		391542052A4B67200011BBAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391542042A4B67200011BBAD /* Preview Assets.xcassets */; };
+		3915420D2A4B67580011BBAD /* Trivial in Frameworks */ = {isa = PBXBuildFile; productRef = 3915420C2A4B67580011BBAD /* Trivial */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		391541F62A4B671F0011BBAD /* trivial-red-cube-visionos-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trivial-red-cube-visionos-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		391541FA2A4B671F0011BBAD /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		391541FD2A4B671F0011BBAD /* trivial_red_cube_visionos_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivial_red_cube_visionos_appApp.swift; sourceTree = "<group>"; };
 		391541FF2A4B671F0011BBAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		391542012A4B67200011BBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				391541FC2A4B671F0011BBAD /* RealityKitContent in Frameworks */,
+				3915420D2A4B67580011BBAD /* Trivial in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				391541F82A4B671F0011BBAD /* trivial-red-cube-visionos-app */,
-				391541F92A4B671F0011BBAD /* Packages */,
 				391541F72A4B671F0011BBAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,14 +59,6 @@
 				391542032A4B67200011BBAD /* Preview Content */,
 			);
 			path = "trivial-red-cube-visionos-app";
-			sourceTree = "<group>";
-		};
-		391541F92A4B671F0011BBAD /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				391541FA2A4B671F0011BBAD /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		391542032A4B67200011BBAD /* Preview Content */ = {
@@ -96,7 +86,7 @@
 			);
 			name = "trivial-red-cube-visionos-app";
 			packageProductDependencies = (
-				391541FB2A4B671F0011BBAD /* RealityKitContent */,
+				3915420C2A4B67580011BBAD /* Trivial */,
 			);
 			productName = "trivial-red-cube-visionos-app";
 			productReference = 391541F62A4B671F0011BBAD /* trivial-red-cube-visionos-app.app */;
@@ -126,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 391541ED2A4B671F0011BBAD;
+			packageReferences = (
+				3915420B2A4B67580011BBAD /* XCRemoteSwiftPackageReference "trivial-rcp-red-cube" */,
+			);
 			productRefGroup = 391541F72A4B671F0011BBAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -354,10 +347,22 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		3915420B2A4B67580011BBAD /* XCRemoteSwiftPackageReference "trivial-rcp-red-cube" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:faisalmemon/trivial-rcp-red-cube.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		391541FB2A4B671F0011BBAD /* RealityKitContent */ = {
+		3915420C2A4B67580011BBAD /* Trivial */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
+			package = 3915420B2A4B67580011BBAD /* XCRemoteSwiftPackageReference "trivial-rcp-red-cube" */;
+			productName = Trivial;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

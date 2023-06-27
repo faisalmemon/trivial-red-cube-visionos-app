@@ -7,7 +7,7 @@
 
 import SwiftUI
 import RealityKit
-import RealityKitContent
+import Trivial
 
 struct ContentView: View {
     var body: some View {
@@ -18,7 +18,7 @@ struct ContentView: View {
             .navigationTitle("Sidebar")
         } detail: {
             VStack {
-                Model3D(named: "Scene", bundle: realityKitContentBundle)
+                Model3D(named: "Scene", bundle: trivialBundle)
                     .padding(.bottom, 50)
 
                 Text("Hello, world!")
