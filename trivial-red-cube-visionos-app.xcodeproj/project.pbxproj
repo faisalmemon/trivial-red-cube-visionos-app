@@ -20,6 +20,8 @@
 		391541FF2A4B671F0011BBAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		391542012A4B67200011BBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391542042A4B67200011BBAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3915420E2A4B68D10011BBAD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3915420F2A4B68FD0011BBAD /* red-cube-vision-os.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-cube-vision-os.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,8 @@
 			children = (
 				391541FD2A4B671F0011BBAD /* trivial_red_cube_visionos_appApp.swift */,
 				391541FF2A4B671F0011BBAD /* ContentView.swift */,
+				3915420E2A4B68D10011BBAD /* README.md */,
+				3915420F2A4B68FD0011BBAD /* red-cube-vision-os.png */,
 				391542012A4B67200011BBAD /* Assets.xcassets */,
 				391542032A4B67200011BBAD /* Preview Content */,
 			);
